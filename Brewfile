@@ -52,7 +52,7 @@ brew "nvm"
 brew "pgcli"
 brew "pinentry-mac"
 brew "pipx"
-brew "postgresql@9.6", restart_service: true
+brew "postgresql", restart_service: true
 brew "pyenv"
 brew "ruby-build"
 brew "rbenv"
@@ -96,6 +96,7 @@ cask "the-unarchiver"
 cask "visual-studio-code"
 cask "wkhtmltopdf"
 cask "zoomus"
+cask "rectangle"
 mas "Cleaner-App", id: 1013897218
 mas "Dato", id: 1470584107
 mas "HazeOver", id: 430798174

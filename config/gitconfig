@@ -25,6 +25,8 @@
   pruneTags = true
 [user]
   useConfigOnly = true
+	email = philip.knape@gmail.com
+	name = Philip Knape
 [diff]
   indentHeuristic = on
   noprefix = true
@@ -80,3 +82,5 @@
 # Allow local customizations in the .gitconfig_local file
 [include]
   path = ~/.gitconfig_local
+[gpg]
+	program = /opt/homebrew/bin/gpg

@@ -6,3 +6,4 @@
 # global:
 PATH="/usr/local/bin:$PATH"
 export PATH
+# . "$HOME/.cargo/env"
