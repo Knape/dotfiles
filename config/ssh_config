@@ -1,4 +1,18 @@
-Host *
+#Knape account
+Host github.com-knape
+  HostName github.com
+  User git
   UseKeychain yes
   AddKeysToAgent yes
   IdentityFile ~/.ssh/id_ed25519
+#philipknape account
+Host github.com-philipknape
+  HostName github.com
+  User git
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/einride
+
+# Fig ssh integration. Keep at the bottom of this file.
+Match all
+  Include ~/.fig/ssh

@@ -76,6 +76,9 @@ source "/opt/homebrew/opt/nvm/nvm.sh"
 
 # === Histories ===
 
+# === Go ===
+source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+
 # Enable persistent REPL history for `node`.
 export NODE_REPL_HISTORY="$HOME/.node_history"
 # Use sloppy mode by default, matching web browsers.

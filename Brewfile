@@ -24,6 +24,7 @@ brew "gh"
 brew "ghc"
 brew "git"
 brew "git-delta"
+brew "go"
 brew "readline"
 brew "python@3.9"
 brew "glib"
@@ -81,8 +82,6 @@ cask "font-fira-code"
 cask "font-roboto-mono"
 cask "font-roboto-mono-for-powerline"
 cask "hyper"
-cask "keyboard-cleaner"
-cask "maccy"
 cask "postman"
 cask "qlcolorcode"
 cask "qlimagesize"
@@ -95,13 +94,6 @@ cask "tableplus"
 cask "the-unarchiver"
 cask "visual-studio-code"
 cask "wkhtmltopdf"
-cask "zoomus"
 cask "rectangle"
-mas "Cleaner-App", id: 1013897218
-mas "Dato", id: 1470584107
-mas "HazeOver", id: 430798174
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Telegram", id: 747648890
+cask "google-cloud-sdk"
 mas "Xcode", id: 497799835
